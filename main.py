@@ -3,9 +3,9 @@ from task import Task,get_incomplete_tasks
 
 Hasan = User("Hasan", "Hasan22issa@gmail.com")
 
-t1 = Task("Write tests", "Cover the core modules")
-t2 = Task("Update docs", "Revise the README")
-t3 = Task("Fix bug #42", "Null pointer in parser")
+t1 = Task("Prepare presentation", "Create slides for project demo")
+t2 = Task("Team meeting", "Discuss weekly progress with the team")
+t3 = Task("Code review", "Review pull requests on GitHub")
 list1 = [t1,t2,t3]
 t1.assign(Hasan)
 t2.assign(Hasan)
